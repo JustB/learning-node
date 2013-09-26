@@ -5,6 +5,7 @@ function route(handle, pathname) {
         handle[pathname]();
     } else {
         console.log("No request handler found for " + pathname);
+    }
 }
 
 exports.route = route;
